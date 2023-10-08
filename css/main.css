@@ -4,4 +4,102 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  header{
+    min-height: 100vh;
+    background-color: #eee;
+    overflow: hidden;
+  }
   
+  .header-title{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: #053b50;
+    margin: 0.7rem 0;
+  }
+
+  .header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #053b50;
+    width: 100%;
+    padding: 0 1rem;
+    transition: all 0.5s ease-in-out;
+    padding: 0.5rem 1rem;
+  }
+
+  .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .nav-links{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .nav-links li i{
+    margin-right: 0.7rem;
+    color: #fff;
+  }
+
+  .nav-links li a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+   .nav-links li a:hover {
+    transform: scale(1.2);
+    color: aqua;
+  }
+  
+   .nav-links li a:focus,
+   .nav-links li a:active {
+    transform: scale(1.1);
+    color: aqua;
+  }
+ 
+  .membership-btn i{
+    padding-right: 0.5rem;
+  } 
+
+  .membership-btn {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #053b50;
+    text-transform: lowercase;
+    transition: all 1s;
+  }
+
+  .membership-btn a{
+    text-decoration: none;
+    color: #053b50;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .membership-btn a:hover {
+    transform: scale(0.9);
+    color: #053b50;
+  }
+  
+  .membership-btn a:visited,
+  .membership-btn a:active,
+  .membership-btn a:focus {
+    transform: scale(0.9);
+    color: #053b50;
+  } 
+
