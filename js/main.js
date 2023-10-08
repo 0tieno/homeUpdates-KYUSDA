@@ -1,8 +1,9 @@
 // Define an array of image URLs for your slideshow
 const imageUrls = [
-    "images/hero-1.JPG",
+    "images/hero - 1.JPG",
     "images/hero-2.JPG",
     "images/hero-3.JPG",
+    "images/hero-4.JPG",
     // Add more image URLs as needed
   ];
   
@@ -27,7 +28,7 @@ const imageUrls = [
   }
   
   // Set an interval to automatically advance the slideshow
-  const intervalId = setInterval(nextImage, 3000); // Change images every 3 seconds (3000 milliseconds)
+  const intervalId = setInterval(nextImage, 10000); // Change images every 3 seconds (3000 milliseconds)
   
   // Optionally, you can add event listeners for next and previous buttons
   document.getElementById("next-button").addEventListener("click", nextImage);
