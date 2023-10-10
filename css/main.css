@@ -112,6 +112,48 @@
   } 
 
   /* HERO SECTION */
+
+  /* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+/* Slide-in animation */
+/* .slide-in {
+  animation-name: slideIn;
+  animation-duration: 1.5s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
   
   
   .arrow-down i{
@@ -123,5 +165,9 @@
     color: #053b50;
     animation: animate 2s infinite;
   }
+
+
+
+
   
 
