@@ -301,4 +301,33 @@ img{
 
 
 
+/* upcoming event section */
+.upcoming-events-section{
+    width: 100%;
+    padding: 70px 100px;
+    padding-left: 200px;
+    margin-bottom: 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(../images/Adventist\ melody.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.upcoming-events-section h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.upcoming-events-section p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0 40px 0;
+}
+
+
+
 
