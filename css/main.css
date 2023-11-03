@@ -37,7 +37,7 @@
     margin: 0.7rem 0;
   }
 
-  .header-navigation{
+  nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
