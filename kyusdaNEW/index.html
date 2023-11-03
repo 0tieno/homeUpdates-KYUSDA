@@ -9,55 +9,57 @@
         <link rel="icon" href="../images/kyusdalogo.png" />
       </head>
 <body>
-    <header class="main-header">
-        <div class="top-row-one">
-            <div class="social-links">
-                <a href="https://www.facebook.com/KYUSDANewYork/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/kyusda/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.youtube.com/@kyusdachurch" target="_blank"><i class="fab fa-youtube"></i></a>
+    <header id="main-header">
+        <div class="rows">
+            <div class="top-row-one">
+                <div class="social-links">
+                    <a href="https://www.facebook.com/KYUSDANewYork/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/kyusda/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/@kyusdachurch" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+
+                <div class="upcoming-events">
+                    <p>Upcoming Event:</p>
+                    <!-- days | hours | mins -->
+                    <p id="countdown">
+                        <span id="days">70 <br> Days</span>
+                        <span id="hours">70 <br> Hours</span>
+                        <span id="mins">70 <br> Mins</span>
+                    </p>
+
+                    <a href="#">READ MORE</a>
+                </div>
+
+                <div class="register-btn">
+                    <a href="register.html">Register Membership <i class="fa fa-angle-down"></i></a>
+                </div>
             </div>
 
-            <div class="upcoming-events">
-                <p>Upcoming Event:</p>
-                <!-- days | hours | mins -->
-                <p id="countdown">
-                    <span id="days">70 <br> Days</span>
-                    <span id="hours">70 <br> Hours</span>
-                    <span id="mins">70 <br> Mins</span>
-                </p>
+            <div class="top-row-two">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../images/kyusdalogo.png" alt="kyusda logo" />
+                        <span>KYUSDA CHURCH</span>
+                    </a>
+                </div>
 
-                <a href="#">READ MORE</a>
-            </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Families</a></li>
+                        <li><a href="#">Departments</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
 
-            <div class="register-btn">
-                <a href="register.html">Register Membership <i class="fa fa-angle-down"></i></a>
-            </div>
-        </div>
-
-        <div class="top-row-two">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="../images/kyusdalogo.png" alt="kyusda logo" />
-                    <span>KYUSDA CHURCH</span>
-                </a>
-            </div>
-
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">Families</a></li>
-                    <li><a href="#">Departments</a></li>
-                    <li><a href="#">Resources</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#"><i class="fa fa-search"></i></a></li>
-                </ul>
-            </div>
-
-            <!-- donate us btn link -->
-            <div class="donate-btn">
-                <a href="#">Send Donation</a>
+                <!-- donate us btn link -->
+                <div class="donate-btn">
+                    <a href="#">Send Donation</a>
+                </div>
             </div>
         </div>
 
@@ -66,7 +68,7 @@
             <div class="hero-text">
                 <h1>WELCOME TO KYUSDA CHURCH</h1>
                 <p>We Love You, We Cherich you and We Value you.</p>
-                <a href="#">about US
+                <a href="#about-section">about US
                     <i class="fa fa-angle-down"></i>
                 </a>
             </div>
@@ -76,37 +78,45 @@
     <!-- MAIN SECTION -->
     <main>
         <!-- ABOUT US SECTION -->
-        <section class="about-us">
+        <section id="about-section" class="about-us">
             <div class="about-us-left">
-                <div class="">
+                <div class="left">
                     <i class="fa-solid fa-book-bible"></i>
                     <p>DAILY PRAYERS</p>
                 </div>
     
-                <div class="">
+                <div class="left">
                     <i class="fa-solid fa-book-bible"></i>
                     <p>CONTINUOUS TEACHING</p>
                 </div>
             </div>
 
             <div class="about-us-center">
-                <h2>ABOUT US</h2>
-                <h1>About Our Church</h1>
-                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, error?</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vero modi sed voluptatem inventore voluptatibus corporis asperiores nisi rerum ut eaque magnam quis, distinctio officiis omnis corrupti consequatur reprehenderit! Voluptatem!</p>
+                <h2>About</h2>
+                <h1>Our Church</h1>
+                <h3>Make disciples of Jesus Christ who live as His loving witnesses and proclaim to all people the everlasting gospel of the Three Angels’ Messages in preparation for His soon return (Matt 28:18-20, Acts 1:8, Rev 14:6-12).</h3>
+                <p>The Seventh-day Adventist Church sees itself as the remnant Church of end-time Bible prophecy.</p>
             </div>
 
             <div class="about-us-right">
-                <div class="">
+                <div class="right">
                     <i class="fa-solid fa-book-bible"></i>
                     <p>community helpers</p>
                 </div>
     
-                <div class="">
+                <div class="right">
                     <i class="fa-solid fa-book-bible"></i>
                     <p>set of sermons</p>
                 </div>
             </div>
+        </section>
+
+        <!-- upcoming event section -->
+        <section class="upcoming-events-section">
+            <h1>UPCOMING EVENTS</h1>
+            <p>
+                Be sure to visit our Upcoming Events page regularly to get infomartion
+            </p>
         </section>
     </main>
             
