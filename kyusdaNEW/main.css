@@ -67,6 +67,7 @@ img{
 .top-row-one{
     /* background-color: #eee; */
     background-color: rgb(107,0,62);
+    /* background-color: #1f1f2c; */
     color: #fff;
     padding: 10px 100px;
     text-transform: uppercase;
@@ -94,7 +95,6 @@ img{
 /* UPCOMING EVENT SECTION */
 .upcoming-events{
     color: #fff;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -213,11 +213,12 @@ img{
 }
 
 .hero-section h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+    /* color: #1f1f2c; */
 }
 
 .hero-section p{
