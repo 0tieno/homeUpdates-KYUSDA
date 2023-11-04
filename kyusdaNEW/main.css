@@ -191,7 +191,7 @@ img{
 
 /* HERO SECTION */
 .hero-section{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(../images/Adventist\ melody.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url(../images/hero-1.JPG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -226,6 +226,7 @@ img{
     font-size: 20px;
     font-weight: 500;
     margin: 20px 0 40px 0;
+    line-height: 1.7;
 }
 
 .hero-text a{
@@ -266,6 +267,9 @@ img{
     border-radius: 5px;
     width: 250px;
     height: 200px;	
+    text-transform: uppercase;
+    /* box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 
     display: flex;
     justify-content: center;
@@ -279,6 +283,10 @@ img{
     color: rgb(107,0,62);
 }
 
+.left img, .right img{
+    width: 100px;
+}
+
 .about-us-center{
     display: flex;
     justify-content: center;
@@ -289,8 +297,12 @@ img{
 
 .about-us-center h2{
     font-size: 30px;
-    font-weight: 300;
-    /* text-transform: uppercase; */
+    font-weight: 400;
+}
+
+.about-us-center .blockquote{
+    font-weight: 500;
+    line-height: 1.7;    
 }
 
 .about-us-center h1{
